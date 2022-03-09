@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 16px;
+            box-sizing: border-box;}
+
+.mshobeli{
+    width: 500px;
+    height: 300px;
+    background-color: red;
+    margin:200px auto;
+    position: relative;
+
+   /*position: relative;*/
+ 
+    
+}
+.shvili{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    margin: auto;
+}
+.shvilishvili{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(230, 255, 8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+header{width: 100%;
+ padding: 100px;
+background-color: black;
+ 
+position: fixed;
+top:0;}
+header ul li a{color: blanchedalmond;}
+footer{
+    width:100%;
+    padding:50px;
+    background-color: blue;
+    position: fixed ; 
+    bottom:0;
+}
+.mshobelisticy:{
+    position: sticky;
+    top:0;
+}.mshobelicolor{
+    background-color: brown;
+}
+.fonisurati{
+    width: 500px;
+    height: 300px;
+    margin:0;
+    background-image: url(../img/G.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: 180px; 150px ;
+}
+.ff{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    position: fixed;
+    top: 500px;
+    right:0;
+}
+.ff img {
+    width: 100px;
+}
+.h1{
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/ff.png);
+    text-indent: -333px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+h1 a{
+    display: block;
+}
